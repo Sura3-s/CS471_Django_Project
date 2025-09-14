@@ -1,12 +1,12 @@
 # CS471 Django Project
 
-## Course
+## Course :
 CS471 - Web Technologies
 
-## Project Name
+## Project Name :
 SuraWebsite
 
-## Project Description
+## Project Description :
 This project was created as part of the CS471 (Web Technologies) course.  
 It is a Django web application that demonstrates the use of:
 - Models, views, and templates
@@ -14,7 +14,7 @@ It is a Django web application that demonstrates the use of:
 - URL routing
 - Static files and templates
 
-## Project Structure
+## Project Structure :
 ```
 SuraWebsite/
 ├─ manage.py
@@ -23,12 +23,12 @@ SuraWebsite/
 └─ static/
 ```
 
-## Requirements
+## Requirements :
 - Python 3.x
 - Django (latest stable version)
 - Virtual environment (recommended)
 
-## How to Run
+## How to Run ?
 1. Clone the repository:
 ```bash
 git clone https://github.com/Sura3-s/CS471_Django_Project.git
@@ -57,10 +57,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-6. Open the website in your browser:
-```
-http://127.0.0.1:8000/
-```
+6. Run the development server and open the website in your browser to see it working locally.
 
 ## Conclusion
 Through this project, I learned how to build a web application using Django.  
