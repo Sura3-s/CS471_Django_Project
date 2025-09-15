@@ -59,6 +59,37 @@ python manage.py runserver
 
 6. Run the development server and open the website in your browser to see it working locally.
 
+## Git & GitHub Setup :
+
+To initialize the Git repository and push the project to GitHub, follow these steps:
+
+1. Initialize a new Git repository in your project folder:
+```bash
+git init
+```
+2. Add all project files to the staging area:
+```bash
+git add .
+```
+3. Commit the files with a meaningful message:
+```bash
+git commit -m "Initial commit"
+```
+4. Link your local repository to the remote GitHub repository:
+```bash
+git remote add origin https://github.com/username/CS471_Django_Project.git
+```
+5. Rename your branch to main (optional but recommended):
+```bash
+git branch -M main
+```
+6. Push your local repository to GitHub:
+```bash
+git push -u origin main
+```
+
+Note: Using git add . is sufficient to include all files unless you have files ignored by .gitignore. The -f option is only needed to force-add ignored files, so it is not necessary in most cases.
+
 ## Conclusion
 Through this project, I learned how to build a web application using Django.  
 I created the main project folder (`SuraWebsite`) and set up the project structure.  
