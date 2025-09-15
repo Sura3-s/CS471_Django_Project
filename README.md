@@ -42,9 +42,9 @@ source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
 ```
 
-3. Install dependencies:
+3. Install Django:
 ```bash
-pip install -r requirements.txt
+pip install django
 ```
 
 4. Apply migrations:
